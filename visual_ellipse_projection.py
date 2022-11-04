@@ -7,6 +7,7 @@ from matplotlib.patches import Ellipse as graphicElli
 import scenario.common as cmn
 from environment import RISRoofEnv, command_parser, OUTPUT_DIR, H, SIDE
 
+
 try:
     import cupy as np
 except ImportError:

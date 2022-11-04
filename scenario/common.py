@@ -74,7 +74,6 @@ def semicircular_uniform(n: int, r_outer: float, r_inner: float = 0, rng: np.ran
 
 
 
-
 # Physical noise
 def thermal_noise(bandwidth, noise_figure=3, t0=293):
     """Compute the noise power [W] according to bandwidth and ambient temperature.
@@ -107,10 +106,6 @@ def watt2dbm(watt):
 
 def np_ceil(a, precision=0):
     return np.round(a + 0.5 * 10 ** (-precision), precision)
-
-def standard_bar(total_iteration):
-    return tqdm(total_iteration, file=sys.stdout, leave=False, ncols=60, ascii=True)
-
 
 # Coordinate system
 def cart2cyl(pos: np.array):
