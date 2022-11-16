@@ -2,7 +2,7 @@
 
 Code implementing the algorithm and the benchmark of the paper "Efficient URLLC with a Reconfigurable Intelligent Surface and Imperfect Device Tracking"
 
-The paper can be found here: 
+The paper is submitted to ICC 2023. A preprint version can be found here: 
 
 The main results are obtainable by running
 ```
